@@ -69,6 +69,7 @@ const ProfessionalCertificate = () => {
     registrationFee: 1000,
     table_title: "Professional Certificate in Fashion Design",
     course_duration: "3 & 6 months",
+    month: true,
     feeData: [
       {
         semester: 1,

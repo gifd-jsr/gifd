@@ -1,9 +1,16 @@
 "use client";
-import Link from "next/link";
+import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
 export default function Faq() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  const router = useRouter();
+
+  const handleClick = (e: React.MouseEvent<HTMLButtonElement>) => {
+    e.preventDefault();
+    router.push("/Contact");
+  };
 
   const faqs = [
     {
@@ -139,12 +146,12 @@ export default function Faq() {
             Our team is here to help. Reach out to us for personalized
             assistance.
           </p>
-          <Link
-            href="/Contact"
+          <button
+            onClick={handleClick}
             className="bg-gradient-to-r from-amber-500 to-amber-600 text-white font-bold px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300"
           >
             Contact Support
-          </Link>
+          </button>
         </div>
       </div>
     </div>

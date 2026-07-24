@@ -15,6 +15,7 @@ export interface TableContent {
   table_title: string;
   course_duration: string;
   feeData: FeeData[];
+  month?: boolean;
 }
 
 export interface FeeData {
