@@ -28,7 +28,7 @@ const Recognitions = () => {
             `}
       >
         <h4 className="text-3xl md:text-4xl font-bold mt-4 mb-6 text-center">
-          About sanskaram university
+          About Sanskaram university
         </h4>
         <p>
           Sanskaram University is a recognized private university established
@@ -40,10 +40,22 @@ const Recognitions = () => {
           International Airport, offering excellent connectivity and a vibrant
           academic environment that supports national and global learning
           opportunities.
-          <br />
-          <h4 className="text-3xl md:text-4xl font-bold mt-4 mb-6 text-center">
-            Benefits to GIFD as an Education Partner of Sanskaram University
-          </h4>
+        </p>
+        <div className="flex justify-center h-[200px] md:h-[520px] xl:h-[620px] my-10  mask-y-from-75% mask-y-to-90%">
+          <Image
+            src="/about/sanskaram_university.jpg"
+            alt="Sanskaram University"
+            width={1200}
+            height={200}
+            className="w-full h-full object-cover rounded-2xl"
+          />
+        </div>
+
+        <h4 className="text-3xl md:text-4xl font-bold mt-4 md:mb-10 text-center">
+          Benefits to GIFD as an Education Partner of Sanskaram University
+        </h4>
+
+        <p>
           Becoming an Education Partner of Sanskaram University has
           significantly strengthened the academic and professional value of Glam
           Institute of Fashion Designing (GIFD), Jamshedpur. This collaboration
