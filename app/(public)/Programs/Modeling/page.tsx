@@ -67,6 +67,7 @@ Ultimately, the aim is to transform raw talent into polished, confident professi
     registrationFee: 1000,
     table_title: "Certification in Modeling",
     course_duration: "3 months",
+    month: true,
     feeData: [
       {
         semester: 1,

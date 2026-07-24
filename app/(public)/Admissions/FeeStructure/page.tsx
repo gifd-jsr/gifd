@@ -257,11 +257,13 @@ const FeeStructure = () => {
         yearlyFee: null,
       },
     ],
+    month: true,
   });
   const [ProfessionalModeling] = useState<TableContent>({
     registrationFee: 1000,
     table_title: "Certification in Modeling",
     course_duration: "3 months",
+    month: true,
     feeData: [
       {
         semester: 1,
@@ -326,6 +328,7 @@ const FeeStructure = () => {
         yearlyFee: null,
       },
     ],
+    month: true,
   });
 
   return (
